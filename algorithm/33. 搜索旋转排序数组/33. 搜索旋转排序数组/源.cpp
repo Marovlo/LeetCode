@@ -11,5 +11,11 @@ public:
          if (target == nums[i])return i;
       }
       return -1;
+
    }
 };
+
+int main(void)
+{
+   return 0;
+}
