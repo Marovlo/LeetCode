@@ -17,5 +17,8 @@ public:
 
 int main(void)
 {
+   Solution s;
+   vector<int> nums = { 1,2,3,4,5 };
+   cout<<s.search(nums, 3);
    return 0;
 }
