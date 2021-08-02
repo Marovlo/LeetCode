@@ -1,11 +1,6 @@
 ﻿#include<iostream>
 using namespace std;
 
-int plus_i(int i, int ji,int n)
-{
-	return (i + ji) % n;
-}
-
 int main(void)
 {
 	//freopen("in.txt", "r", stdin);
@@ -13,12 +8,10 @@ int main(void)
 	cin >> n;
 	bool* drop_list = new bool[n] {false};
 	int dropped = 0, total_left = 0;
-	int max_mi = 0;
 	for (int i = 0; i < n; ++i)
 	{
 		int m, first, now;
 		cin >> m >> first;
-		max_mi = max_mi > m ? max_mi : m;
 		now = first;
 		for (int j = 1; j < m; ++j)
 		{
@@ -41,38 +34,18 @@ int main(void)
 		total_left += now;
 	}
 	int group = 0;
-	if (max_mi != = 100)
+	if (dropped < 3)
 	{
-		if (dropped < 3)
-		{
-			cout << total_left << " " << dropped << " " << group;
-			return 0;
-		}
-		else
-		{
-			for (int i = 0; i < n; ++i)
-			{
-				if (drop_list[i] && drop_list[plus_i(i, 1, n)] && drop_list[plus_i(i, 2, n)])group += 1;
-			}
-			cout << total_left << " " << dropped << " " << group;
-			return 0;
-		}
+		cout << total_left << " " << dropped << " " << group;
+		return 0;
 	}
 	else
 	{
-		if (dropped < 3)
+		for (int i = 0; i < n; ++i)
 		{
-			cout << total_left << " " << dropped << " " << group;
-			return 0;
+			if (drop_list[i] && drop_list[(i + 1) % n] && drop_list[(i + 2) % n])group += 1;
 		}
-		else
-		{
-			for (int i = 0; i < n; ++i)
-			{
-				if (drop_list[i] && drop_list[plus_i(i, 1, n)] && drop_list[plus_i(i, 2, n)])group += 1;
-			}
-			cout << total_left << " " << dropped << " " << group;
-			return 0;
-		}
+		cout << total_left << " " << dropped << " " << group;
+		return 0;
 	}
 }
