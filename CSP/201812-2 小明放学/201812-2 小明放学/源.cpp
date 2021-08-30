@@ -6,7 +6,7 @@ int main(void)
 	//freopen("in.txt", "r", stdin);
 	int red, yellow, green, n;
 	//int sum = 0;
-	long long sum = 0;
+	int sum = 0;
 	cin >> red >> yellow >> green >> n;
 	int aturn = red + yellow + green;
 	for (int i = 0; i < n; ++i)
