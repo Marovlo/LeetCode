@@ -1,57 +1,65 @@
 ﻿#include<iostream>
+#include<vector>
+#include<unordered_map>
 using namespace std;
 
-enum direction
+typedef struct ball
 {
-	right,
-	left
-};
-
-typedef struct pos
-{
-	bool has_ball = false;
-
-	bool direct = direction::right;
-};
+	int pos;
+	enum direction
+	{
+		left=1,
+		right=2,
+	};
+	direction dir = right;
+}ball;
 
 int main(void)
 {
+	//freopen("in.txt", "r", stdin);
 	int n, l, t;
 	cin >> n >> l >> t;
-	pos* poss = new pos[l];
+	ball* bals = new ball[n];
 	for (int i = 0; i < n; ++i)
 	{
-		int p;
-		cin >> p;
-		poss[p].has_ball = true;
+		cin >> bals[i].pos;
 	}
 	for (int i = 0; i < t; ++i)
 	{
-		for (int j = 0; j < l; ++j)//移动
+		for (int i = 0; i < n; ++i)//第一次遍历球，移动和处理撞墙反向
 		{
-			if (poss[j].has_ball)
+			if (bals[i].pos == 0 && bals[i].dir == ball::left)
 			{
-				if (poss[j].direct == direction::right && j == l - 1)//撞右墙向左走
-				{
-					poss[j].direct == direction::left;
-				}
-				else if (poss[j].direct == direction::left && j == 0)//撞左墙向右走
-				{
-					poss[j].direct = direction::right;
-				}
-				else
-				{
-					poss[j].has_ball = false;
-					if (poss[j].direct == direction::right)
-					{
-						poss[j + 1].has_ball = true;
-					}
-					else
-					{
-						poss[j - 1].has_ball = true;
-					}
-				}
+				bals[i].pos = 1;
+				bals[i].dir = ball::right;
+			}
+			else if (bals[i].pos == l && bals[i].dir == ball::right)
+			{
+				bals[i].pos = l - 1;
+				bals[i].dir = ball::left;
+			}
+			else
+			{
+				if (bals[i].dir == ball::right)++bals[i].pos;
+				else --bals[i].pos;
 			}
 		}
+		unordered_map<int, vector<int>> poss;
+		for (int i = 0; i < n; ++i)
+		{
+			poss[bals[i].pos].push_back(i);
+		}
+		for (auto i = poss.begin(); i != poss.end(); ++i)
+		{
+			if ((*i).second.size() == 2)
+			{
+				bals[(*i).second[0]].dir = bals[(*i).second[0]].dir == ball::right ? ball::left : ball::right;
+				bals[(*i).second[1]].dir = bals[(*i).second[1]].dir == ball::right ? ball::left : ball::right;
+			}
+		}
+	}
+	for (int i = 0; i < n; ++i)
+	{
+		cout << bals[i].pos << " ";
 	}
 }
