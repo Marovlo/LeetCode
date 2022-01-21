@@ -3,3 +3,4 @@ Release/
 *.opendb
 ipch/
 *.exe
+x64/

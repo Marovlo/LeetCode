@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "10eb4563-31f8-4396-8980-c2cd9b8a1d5a": {
+      "ProjectGuid": "10eb4563-31f8-4396-8980-c2cd9b8a1d5a",
+      "DisplayName": "JZ6 从尾到头打印链表",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
