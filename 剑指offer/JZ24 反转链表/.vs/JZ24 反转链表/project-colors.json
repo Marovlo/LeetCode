@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3fe0b996-20be-4e56-805c-396672ef1a39": {
+      "ProjectGuid": "3fe0b996-20be-4e56-805c-396672ef1a39",
+      "DisplayName": "JZ24 反转链表",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
