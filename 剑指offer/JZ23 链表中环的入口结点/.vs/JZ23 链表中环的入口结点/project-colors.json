@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa41d26f-5b71-4a3f-88c3-61059691894d": {
+      "ProjectGuid": "fa41d26f-5b71-4a3f-88c3-61059691894d",
+      "DisplayName": "JZ23 链表中环的入口结点",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
