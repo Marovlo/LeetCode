@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ce7d37e1-accd-41c0-9fb0-554de2e2003f": {
+      "ProjectGuid": "ce7d37e1-accd-41c0-9fb0-554de2e2003f",
+      "DisplayName": "JZ79 判断是不是平衡二叉树",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
