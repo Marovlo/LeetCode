@@ -17,9 +17,9 @@ public:
 			if (!left && !right)continue;
 			if (left == nullptr || right == nullptr)return false;
 			if (left->val != right->val)return false;
-			nodes.push(left->left);
+			nodes.push(left->left);//左左和右右是一对
 			nodes.push(right->right);
-			nodes.push(left->right);
+			nodes.push(left->right);//左右和右左也是一对
 			nodes.push(right->left);
 		}
 		return true;
