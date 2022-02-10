@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cf18818d-7b6d-40b5-b233-ff9aa6166a7a": {
+      "ProjectGuid": "cf18818d-7b6d-40b5-b233-ff9aa6166a7a",
+      "DisplayName": "JZ10 斐波那契数列",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

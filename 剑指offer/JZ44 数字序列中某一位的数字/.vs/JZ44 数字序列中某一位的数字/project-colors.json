@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "60d46bdc-4149-4577-a453-9fe3201a2084": {
+      "ProjectGuid": "60d46bdc-4149-4577-a453-9fe3201a2084",
+      "DisplayName": "JZ44 数字序列中某一位的数字",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

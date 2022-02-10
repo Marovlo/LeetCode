@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "434c8923-18cd-442d-9578-1e1332d0c531": {
+      "ProjectGuid": "434c8923-18cd-442d-9578-1e1332d0c531",
+      "DisplayName": "JZ12 矩阵中的路径",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
