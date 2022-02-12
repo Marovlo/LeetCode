@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e1371c00-f657-4cb8-a371-e27e0d79d046": {
+      "ProjectGuid": "e1371c00-f657-4cb8-a371-e27e0d79d046",
+      "DisplayName": "JZ42 连续子数组的最大和",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d51f7c3f-0963-40b5-9d98-05f69ffa0e51": {
+      "ProjectGuid": "d51f7c3f-0963-40b5-9d98-05f69ffa0e51",
+      "DisplayName": "JZ48 最长不含重复字符的子字符串",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
