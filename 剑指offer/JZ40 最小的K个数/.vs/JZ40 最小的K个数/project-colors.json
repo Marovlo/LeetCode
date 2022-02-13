@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "96d80bed-16c5-47f4-bc88-5da53227a613": {
+      "ProjectGuid": "96d80bed-16c5-47f4-bc88-5da53227a613",
+      "DisplayName": "JZ40 最小的K个数",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

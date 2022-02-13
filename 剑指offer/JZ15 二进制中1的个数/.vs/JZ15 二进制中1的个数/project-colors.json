@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bdc39c9a-cd8c-4f63-be42-10f4beff67ab": {
+      "ProjectGuid": "bdc39c9a-cd8c-4f63-be42-10f4beff67ab",
+      "DisplayName": "JZ15 二进制中1的个数",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9b634ee1-0171-44b1-962b-61433577a86c": {
+      "ProjectGuid": "9b634ee1-0171-44b1-962b-61433577a86c",
+      "DisplayName": "JZ41 数据流中的中位数",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

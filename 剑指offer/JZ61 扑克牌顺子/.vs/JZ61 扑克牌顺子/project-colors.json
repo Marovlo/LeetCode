@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e5694bc2-12cb-447e-8836-f16be1fb41a4": {
+      "ProjectGuid": "e5694bc2-12cb-447e-8836-f16be1fb41a4",
+      "DisplayName": "JZ61 扑克牌顺子",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
