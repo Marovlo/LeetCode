@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "09b4e556-1a60-4a85-9b86-20da6acf430c": {
+      "ProjectGuid": "09b4e556-1a60-4a85-9b86-20da6acf430c",
+      "DisplayName": "购物",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

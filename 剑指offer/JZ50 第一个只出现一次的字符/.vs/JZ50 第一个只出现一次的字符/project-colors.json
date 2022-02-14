@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bd251d18-4b96-4249-a2cf-836cf14ea52c": {
+      "ProjectGuid": "bd251d18-4b96-4249-a2cf-836cf14ea52c",
+      "DisplayName": "JZ50 第一个只出现一次的字符",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

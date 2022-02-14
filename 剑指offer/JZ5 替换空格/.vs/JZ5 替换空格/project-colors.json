@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d4d10eea-42e3-4684-928a-c8feab2f8fdf": {
+      "ProjectGuid": "d4d10eea-42e3-4684-928a-c8feab2f8fdf",
+      "DisplayName": "JZ5 替换空格",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
