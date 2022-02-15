@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1cabacfc-951d-4323-bf23-d0cb9ab865f0": {
+      "ProjectGuid": "1cabacfc-951d-4323-bf23-d0cb9ab865f0",
+      "DisplayName": "JZ43 整数中1出现的次数",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

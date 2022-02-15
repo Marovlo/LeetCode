@@ -41,6 +41,6 @@ public:
 int main(void)
 {
 	Solution s;
-	cout << s.Power(2, 4);
+	cout << s.Power(3, 5);
 	return 0;
 }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JZ58 左旋转字符串", "JZ58 左旋转字符串\JZ58 左旋转字符串.vcxproj", "{C812AE29-A780-471A-8DBC-B8A59061ED71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Debug|x64.ActiveCfg = Debug|x64
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Debug|x64.Build.0 = Debug|x64
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Debug|x86.ActiveCfg = Debug|Win32
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Debug|x86.Build.0 = Debug|Win32
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Release|x64.ActiveCfg = Release|x64
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Release|x64.Build.0 = Release|x64
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Release|x86.ActiveCfg = Release|Win32
+		{C812AE29-A780-471A-8DBC-B8A59061ED71}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCBA36D1-4F2A-4199-94F3-E3CC71D74D7F}
+	EndGlobalSection
+EndGlobal
