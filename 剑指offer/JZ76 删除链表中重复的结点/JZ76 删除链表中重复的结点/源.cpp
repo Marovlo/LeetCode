@@ -4,6 +4,23 @@ class Solution
 {
 public:
 	ListNode* deleteDuplication(ListNode* pHead) {
+		ListNode* root = new ListNode(0);
+		root->next = pHead;
+		ListNode* now = pHead, * pre = root;
+		while (now){
+			if (now->next && now->val == now->next->val) {
+				while (now->next&&now->val==now->next->val){
+					now = now->next;
+				}
+				now = now->next;
+			}
+			pre->next = now;
+			pre = pre->next;
+			if (now)now = now->next;
+		}
+		return root->next;
+	}
+	ListNode* deleteDuplication_1(ListNode* pHead) {
 		ListNode* l = nullptr, *m = nullptr, *r = nullptr;
 		bool flag = false;
 		do {
